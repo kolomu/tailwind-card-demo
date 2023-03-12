@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/tailwindcss.js"></script>
+    <title>Email Subscribe</title>
+</head>
+
+<body>
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+
+        <!-- Card-->
+        <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+            <div class="flex flex-col md:flex-row rounded-l-xl">
+                <img src="assets/images/img1.jpg"
+                    class="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200">
+
+                <!-- Content-->
+                <div class="p-6 md:p-12 flex flex-col items-center">
+                    <h2 class="font-serif text-xl font-medium text-center text-white md:text-left">Get fitness tips
+                        directly in your inbox</h2>
+
+                    <p class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left">
+                        Sign up now for for this exlusive fitness newsletter. Only available for a short time!
+                    </p>
+
+                    <div class="flex w-full flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0">
+                        <input class="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 
+                        placeholder:text-cs placeholder:text-center md:text-left placeholder:md:text-left 
+                        focus:outline-none" type="text" placeholder="Enter your email address">
+
+                        <button
+                            class="px-5 py-3 text-xs rounded-md text-white bg-orange-500 hover:bg-orange-800 hover:text-white duration-500">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
